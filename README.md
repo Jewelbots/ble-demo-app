@@ -4,7 +4,7 @@ Discover &amp; Control Bluetooth Low Energy Devices
 ## Preamble
 
 ### What is this thing?
-This is a [Cordova](https://cordova.apache.org/) project which builds a mobile application (tested on iOS 9, Android soon™) that allows the user to discover and write to nearby [Bluetooth low energy](https://en.wikipedia.org/wiki/Bluetooth_low_energy) devices en masse. This project could serve as a starting point for individuals seeking to quickly begin developing an application to communicate with Bluetooth low energy devices.
+This is a [Cordova](https://cordova.apache.org/) project which builds a mobile application (tested on __iOS 9__, Android soon™) that allows the user to discover and write to nearby [Bluetooth low energy](https://en.wikipedia.org/wiki/Bluetooth_low_energy) devices _en masse_. This project could serve as a starting point for individuals seeking to quickly begin developing an application to communicate with Bluetooth low energy devices.
 
 ### Why is this a thing?
 Here at [Jewelbots](http://jewelbots.com/), we're developing BLE wearable devices; ones which we often find ourselves in need of a simple way to control. This application is particularly useful when demonstrating specific features of our devices in a setting where typical operation is not feasible (on stage, at trade shows, etc.). We've made it OSS because that's the right thing to do.
