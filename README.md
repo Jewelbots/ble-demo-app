@@ -17,6 +17,14 @@ If you find this project useful and run across any issues, please feel encourage
 Although you may develop and emulate the application in any browser, OS X is required to actually build the application for iOS. No such requirements exist for Android builds.
 ### System Tools
 This project assumes that you will be building the application for both iOS and Android. Thus, you will need to install the build toolchains for both of these mobile environments.
+#### OS X
+The preferred way to install required system tools on OS X is to make use of [homebrew](http://brew.sh/). We will assume you have already installed homebrew:
+
+* `brew install ant` — Install [Apache Ant](http://ant.apache.org/), a build tool for Java applications (Android).
+
+If you don't already have [Node.js](https://nodejs.org/en/) installed, and don't have immediate plans to use it for any other projects, you may also install this via homebrew:
+
+* `brew install node` — Install Node.js, a JavaScript runtime environment (used for building front-end assets).
 
 ## Installation
 _Coming soon._
