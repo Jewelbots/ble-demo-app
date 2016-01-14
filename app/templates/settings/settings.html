@@ -1,0 +1,27 @@
+<ion-view>
+  <div class="bar bar-header bar-light">
+    <div class="center-icon"><i class="jewelbots-icon"></i></div>
+  </div>
+  <div class="content has-header">
+
+
+  <ul class="list">
+    <li class="item">
+      <label class="item-input">
+        <button class="button button-assertive" ng-click="deleteLog()">Delete Log</button>
+      </label>
+    </li>
+</ul>
+
+  </div>
+  <ion-scroll direction="y" delegate-handle="mapScroll">
+    <div class="row" ng-repeat="logMessage in model.messages">
+      <div class="col-10">
+        <i class="ion-ios-information-empty" ng-show="logMessage.Type == 'message'"></i>
+        <i class="ion-alert" ng-show="logMessage.Type == 'error'"></i></div>
+      <div class="col-65">{{logMessage.Message}}</div>
+      <div class="col-25">{{logMessage.Timestamp}}</div>
+    </div>
+  </ion-scroll>
+
+</ion-view>
