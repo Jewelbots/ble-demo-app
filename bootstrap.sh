@@ -7,8 +7,6 @@ npm install grunt
 npm install
 bower install
 
-grunt platform:add:ios
-grunt platform:add:android
-grunt plugin:add:https://github.com/randdusing/BluetoothLE
-grunt plugin:add:org.apache.cordova.dialogs
-ionic plugin add cordova-plugin-contacts
+ionic platform add ios
+ionic platform add android
+ionic plugin add cordova-plugin-bluetoothle@2.7.0

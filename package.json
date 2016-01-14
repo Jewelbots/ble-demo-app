@@ -57,7 +57,8 @@
   "cordovaPlugins": [
     "com.randdusing.bluetoothle",
     "org.apache.cordova.console",
-    "org.apache.cordova.splashscreen"
+    "org.apache.cordova.splashscreen",
+    "cordova-plugin-bluetoothle@2.7.0"
   ],
   "cordovaPlatforms": [
     "ios",
