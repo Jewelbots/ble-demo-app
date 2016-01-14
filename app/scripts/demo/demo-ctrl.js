@@ -1,6 +1,6 @@
 'use strict';
 angular
-	.module('jewelApp.controllers')
+	.module('bleBlaster.controllers')
 	.controller('DemoCtrl', [
 		'$cordovaBluetoothle',
 		'$ionicPlatform',

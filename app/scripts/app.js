@@ -7,20 +7,20 @@ angular.module('lodash', [])
 
 angular.module('ngCordova', ['ngCordova.plugins']);
 angular.module('ngCordovaBluetoothle');
-angular.module('jewelApp.controllers', [
+angular.module('bleBlaster.controllers', [
   'ngCordovaBluetoothle'
   ]);
-angular.module('jewelApp.services', ['jewelbots.utils', 'ionic']);
-angular.module('jewelApp.directives', []);
-angular.module('jewelApp',
+angular.module('bleBlaster.services', ['jewelbots.utils', 'ionic']);
+angular.module('bleBlaster.directives', []);
+angular.module('bleBlaster',
  [
   'ionic',
   'lodash',
    'ngCordova',
-  'jewelApp.services',
-  'jewelApp.controllers',
+  'bleBlaster.services',
+  'bleBlaster.controllers',
   'jewelbots.utils',
-  'jewelApp.directives'
+  'bleBlaster.directives'
   ])
 .run(
  ['$cordovaSplashscreen',

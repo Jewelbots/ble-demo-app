@@ -1,5 +1,5 @@
 'use strict';
-angular.module('jewelApp.controllers')
+angular.module('bleBlaster.controllers')
   .controller('SettingsCtrl', ['$logService','$scope', function($logService, $scope){
    $scope.model = {
     messages: []

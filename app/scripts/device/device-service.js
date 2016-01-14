@@ -1,5 +1,5 @@
 'use strict';
-angular.module('jewelApp.services')
+angular.module('bleBlaster.services')
 	.factory(
 		'DeviceService', [
 		'$cordovaBluetoothle',

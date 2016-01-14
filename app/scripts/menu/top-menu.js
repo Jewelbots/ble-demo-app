@@ -1,6 +1,6 @@
 /* global document */
 'use strict';
-angular.module('jewelApp.directives')
+angular.module('bleBlaster.directives')
   .directive('jewelbotsTopMenu', function() {
   return {
     restrict: 'E',
