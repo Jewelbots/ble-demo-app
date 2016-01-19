@@ -20,7 +20,7 @@ var Orchestrator = require('orchestrator');
 
 var BASES = {
   android: 'res',
-  ios: 'Jewelapp/Resources'
+  ios: 'bleblaster/Resources'
 };
 var RESOURCE_DIR = 'resources';
 
