@@ -24,9 +24,17 @@ The preferred way to install required system tools on OS X is to make use of [ho
 
 If you don't already have [Node.js](https://nodejs.org/en/) installed, and don't have immediate plans to use it for any other projects, you may also install this via homebrew:
 
-* `brew install node` — Install Node.js, a JavaScript runtime environment (used for building front-end assets).
+* `brew install homebrew/versions/node4-lts` — Install Node.js, a JavaScript runtime environment (used for building front-end assets).
 
 ## Installation
-_Coming soon._
+
+1. Download the `pre_setup.sh` file to wherever you keep your projects. (For instance, I keep mine in `~/src`).
+2. Open a command prompt, and type: `source ./pre_setup.sh`
+3. Once it's finished, cd into the directory it created: `ble-blaster`.
+4. To build, run `grunt build`.
+5. To run in a web browser: `grunt serve`
+
+
+
 ## Troubleshooting
 _No troubleshooting information yet. Please submit a PR if you've solved an issue that you encounter with this project._
